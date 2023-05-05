@@ -61,6 +61,7 @@ header .menu .Home::before
     left:  1px;
     border-radius: 12px;
 }
+
 header .menu .btn
 {
   display: inline-block;
@@ -242,6 +243,19 @@ header .menu .btn
     line-height: 30px;
     color: #171100;
   }
+  .popular .star
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .popular .quality
+  {
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FEA31B;
+  }
   .popular .popular-list .item .desc
   {
     font-weight: 400;
@@ -251,6 +265,7 @@ header .menu .btn
     margin-bottom: 12px;
     margin: top 6px;
   }
+  
   .popular .popular-list .item .money
   {
     font-weight: 600;
