@@ -31,6 +31,10 @@ header
 {
    padding-top: 36px;
    background-color: #FFFCF4;
+   position: sticky;
+   top:0;
+   z-index: 1;
+   padding-bottom: 11px;
 }
 header .row
 {
@@ -335,3 +339,262 @@ header .menu .btn
     line-height: 40px;
     color: #FFFFFF;
  }
+
+   /*=================Features===============*/
+
+   .Features
+   {
+    margin:200px 0;
+   }
+.Features .f1,.Features .f2
+{
+  width: 50%;
+  position: relative;
+}
+.Features .f2
+{
+  padding: 58px 0 58px 115px;
+}
+.Features .f2 .title
+{
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  color: #171100;
+  margin-bottom: 16px;
+}
+.Features .f2 .desc
+{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5F5B53;
+  margin-bottom: 16px;
+}
+.Features .f2 .origin
+{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5F5B53;
+  margin-bottom: 32px;  
+}
+.Features .f2 .btn
+{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FFB900;
+  border-radius: 26px;
+  padding: 11px 37px;
+
+}
+.Features .f1 .image
+{
+  height: 405px;
+  width: 270px;
+  object-fit: cover;
+}
+.Features .f1
+{
+  height: 438px;
+}
+.Features .f1 .i1
+{
+  position: absolute;
+  left:0;
+  bottom:0;
+}
+.Features .f1 .i2
+{
+  position: absolute;
+  right:0;
+  top:0;
+}
+
+
+   /*=================Blogs===============*/
+.blog
+{
+  background-color:   #FFFCF4;
+  padding:96px 0;
+}
+.blog .titlemax
+{
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #130606;
+}
+.blog .sub-title
+{
+  width: 450px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #696262;
+  margin:16px auto 55px auto;
+}
+.blog .item
+{
+  width: calc(100vw/3);
+  background: #FFFFFF;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+.blog .item .infor
+{
+  padding: 20px 20px 28px 20px;
+}
+.blog .item .thumb
+{
+  height: 250px;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+.blog .item .seperate
+{
+  height: 1px;
+  width: 160px;
+  background: #E2DFDA;
+  border-radius: 0.5px;
+  margin: 12px 0;
+}
+.blog .item .icon
+{
+  margin-right: 4px;
+}
+.blog .item .day
+{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #5F5B53;
+}
+.blog .item .title
+{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #171100;
+  margin-bottom: 20px;
+}
+.blog .item .btn
+{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: black;
+  padding: 12px 21px;
+  border-radius: 25px;
+}
+.blog .list
+{
+  gap:30px;
+}
+.blog .item .btn:hover
+{
+  background: #FFB900;
+}
+.blog .list
+{
+  margin-bottom: 40px;
+}
+.blog .dot
+{
+  text-align: center;
+}
+
+
+   /*=================Footer===============*/
+
+
+   footer
+   {
+    background: #2E2100;
+    padding:96px 0 28px 0;
+   }
+   footer .list .row
+   {
+    gap:130px;
+    align-items: center;
+   }
+   footer .list .item1
+   {
+    max-width: 300px;
+   }
+   footer .list .item1 .desc
+   {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #BFBCB2;
+    margin: 18px 0;
+   }
+   footer .list .item1 .icon
+   {
+    margin-right: 18px;
+   }
+   footer .list .item .title
+   {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+   }
+   footer .list .item .seperate
+   {
+    height: 1px;
+    width: 130px;
+    margin: 14px 0 28px 0;
+    background: #59554B;;
+   }
+   footer .list .item li
+   {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #BFBCB2;
+   }
+   footer strong
+   {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+   }
+   footer .list
+   {
+    align-items: center;
+   }
+   footer .list .Support
+   {
+    min-width: 140px;
+   }
+   footer .div
+   {
+    height: 1px;
+    width: 100%;
+    background: #59554B;
+    margin: 38px 0 28px 0;
+   }
+   footer .end
+   {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #807D74;
+   }
