@@ -249,6 +249,10 @@ header .menu .btn
     justify-content: center;
     align-items: center;
   }
+  .item .image
+  {
+    margin :-1px;
+  }
   .popular .quality
   {
     font-weight: 400;
@@ -299,7 +303,12 @@ header .menu .btn
   {
     text-align: center;
   }
-
+  .popular-list .item
+  {
+    background: #FFFFFF;
+  border: 1px solid #E2DFDA;
+  border-radius: 12px;
+  }
 
     /*=================FeedBacks===============*/
  .feedbacks
@@ -616,3 +625,34 @@ header .menu .btn
     text-align: center;
     color: #807D74;
    }
+
+
+
+   /*Luu y su dung gioi han so dong cho van ban */
+
+   .line-clamp
+   {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp,1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+   }
+   /* Neu muon gioi han o 2 dong */
+   .line-clamp.line-2
+  {
+    --line-clamp:2;
+  }
+
+  /*css chặn chữ đâm xuyên qua phần content */
+  .break-all
+  {
+    word-break: break-all;
+  }
+
+  /*Thêm các phần nội dụng để sau này thuận tiện xài js.*/
+  .new
+
+  {
+    flex-shrink: 0;
+    overflow: hidden;
+  }
